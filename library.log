@@ -1,1 +1,15 @@
-2025-12-04 02:20:51,050 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:10:22,708 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:10:26,351 - __main__ - ERROR - The choosen book 1984 doesnt exist in the library
+2025-12-05 01:10:55,110 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:10:58,972 - __main__ - ERROR - The choosen book HARRY POTTER doesnt exist in the library
+2025-12-05 01:20:29,417 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:20:32,512 - __main__ - ERROR - The choosen book 1984 doesnt exist in the library
+2025-12-05 01:42:35,887 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:42:39,269 - __main__ - INFO - The choosen book is :1984
+2025-12-05 01:47:40,405 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:47:45,414 - __main__ - INFO - The choosen book is:1984
+2025-12-05 01:47:47,491 - __main__ - INFO - The Checkout Session has ended. 
+2025-12-05 01:49:28,432 - __main__ - INFO - Menu contains: Harry Potter, The Hobbit, Sherlock Holmes, 1984, End Checkout
+2025-12-05 01:49:35,681 - __main__ - INFO - The choosen book is :1984
+2025-12-05 01:49:37,604 - __main__ - INFO - The User has taken 4 copies of 1984
+2025-12-05 01:49:37,604 - __main__ - INFO - The Checkout Session has ended. 

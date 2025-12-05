@@ -43,3 +43,21 @@ def show_book_menu():
 
 show_book_menu()
 
+#choosing the book 
+book_choice = input("Please choose one of the above: ").upper()
+if book_choice in books:
+    library_log.info(f"The choosen book is:{books[book_choice]}")
+elif book_choice.title() in books.values():
+    for code, title in books.items():
+        if title.upper() == book_choice:
+            library_log.info(f"The choosen book is :{title}")
+            break
+else:
+    library_log.error(f"The choosen book {book_choice} doesnt exist in the library")
+
+book_quantity = int(input(f"Please enter the quanitity of {book_choice} books you would like: "))
+if book_quantity > 5:
+    library_log.warning("Only 5 copies are allowed")
+elif book_quantity > 0 and book_quantity < 6:
+    library_log.info(f"The User has taken {book_quantity} copies of {book_choice}")
+    library_log.info("The Checkout Session has ended. ")
